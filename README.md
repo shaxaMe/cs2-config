@@ -42,3 +42,30 @@ cl_interp 0
 cl_interp_ratio 1
 cl_cmdrate 128
 cl_updaterate 128
+
+alias "+jumpthrow" "+jump;-attack"
+alias "-jumpthrow" "-jump"
+bind "v" "+jumpthrow"
+
+bind "q" "lastinv"
+bind "c" "+duck;+jump"
+
+bind "shift" "+sprint"
+
+bind "mouse5" "cl_crosshair_recoil 1"
+
+
+alias "+jumpthrow" "+jump;-attack"
+alias "-jumpthrow" "-jump"
+bind "v" "+jumpthrow"
+
+bind "z" "slot6" // HE
+bind "x" "slot7" // Flash
+bind "c" "slot8" // Smoke
+bind "t" "slot10" // Molotov
+
+bind "mouse5" "toggle cl_crosshair_recoil 0 1"
+
+bind "alt" "+duck;+jump"
+
+bind "mouse4" "toggle volume 0.2 1"
